@@ -1,9 +1,14 @@
+import Babber from "../Banner/Babber";
+import CategoryList from "../CategoryList/CategoryList";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 
 const Home = () => {
     return (
         <div>
-            <h2 className="text-6xl">The is home</h2>
+            <Babber></Babber>
+            <CategoryList></CategoryList>
+            <FeaturedJobs></FeaturedJobs>
         </div>
     );
 };
