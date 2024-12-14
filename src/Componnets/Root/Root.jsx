@@ -6,8 +6,10 @@ import Navber from '../Navber/Navber';
 const Root = () => {
     return (
         <div>
-            <Navber></Navber>
-            <Outlet></Outlet>
+            <div className='max-w-7xl mx-auto'>
+                <Navber></Navber>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
